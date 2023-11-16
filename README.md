@@ -48,27 +48,35 @@ Para chamadas da função log, utiliza literais de modelo para interpolação de
 Certifique-se de ter o Rust instalado em sua máquina. Você pode obtê-lo em https://www.rust-lang.org/tools/install.
 Compilação e Execução:
 
-### Clone este repositório: git clone https://github.com/seu-usuario/crab-lang-compiler.git
+### Clone este repositório:
 
-Navegue até o diretório do projeto: cd crab-lang-compiler
+```cmd
+git clone https://github.com/Diottodev/crab-lang.git
+```
 
-Compile o código Rust: `
+### Navegue até o diretório do projeto:
+
+```cmd
+cd crab-lang
+```
+
+### Compile o código Rust: `
 
 ```cmd
 cargo build --release
 ```
 
-Execute o compilador:
+### Execute o compilador:
 
 ```cmd
 cargo run ./target/release/crab-lang-compiler
 ```
 
-Entrada e Saída:
+## Entrada e Saída:
 
 Coloque seu código crab-lang em um arquivo, por exemplo, input.cr.
 
-Execute o compilador:
+### Execute o compilador:
 
 ```cmd
 cargo run ./target/release/crab-lang-compiler input.cr
